@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:elevation="1dp"
+    android:background="@color/green"
+    tools:context=".activity.RegistrationActivity">
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Name (Min. 3 characters)"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:background="@color/white"
+        android:inputType="textPersonName"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Email Address"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:background="@color/white"
+        android:inputType="textEmailAddress"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mobile Number(10 digits)"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:background="@color/white"
+        android:inputType="number"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Delivery Address"
+        android:drawableLeft="@drawable/ic_action_location"
+        android:background="@color/white"
+        android:inputType="text"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Password"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:background="@color/white"
+        android:inputType="numberPassword"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Confirm Password"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:background="@color/white"
+        android:inputType="numberPassword"
+        android:elevation="1dp"
+        android:paddingLeft="8dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/green_dark"
+        android:hint="Register"
+        android:textColorHint='@color/white'
+        android:textSize="20sp"
+        android:elevation="1dp"
+        />
+
+</LinearLayout>
